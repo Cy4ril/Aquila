@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+   
+</body>
+<script>
+    // declaration
+    var a;
+
+
+    // definition
+    var b = 4;
+
+    console.log(a); 
+    console.log(b);
+    
+    var name = "James";
+    console.log(name);
+
+    a = 5;
+    console.log(a + b);
+
+    console.log(a % b);
+
+    var sum = a = b;
+    console.log(typeof sum);
+
+    // functions
+
+    //function <name_of_function>(arguments)
+    eat('bread');
+
+    function eat(value) {
+        console.log(value);
+    } 
+
+    // function to add two numbers
+    function sum(a, b) {
+        var _sum = a + b;
+        // return a + b;
+        return _sum;
+    }
+
+    function eatbread(firstValue, secondValue) {
+        var dvi = firstValue/secondValue;
+        return dvi;
+    }
+
+    console.log(division(4, 5));
+
+
+    var ans = true;
+
+    if (ans === 0) {
+        console.log('Answer is true');
+    } else if(ans === 1) {
+        console.log('Answer is false');
+    } else {
+        console.log('Answer invalid');
+    }
+
+    var i = 10;
+    while(i < 10) {
+        // console.log('my name is john');
+        console.log(i++);
+    }
+
+    do {
+        console.log(i++);
+    } while(i < 10);
+
+    for(var p = 0; p < 10; p++) {
+        console.log(p);
+    }
+
+
+    // IF Statement
+    // if (condition) {}
+
+    // While loop
+    /*
+        initialization
+        while(condition) {}
+
+    */
+    // do while loop
+    /*
+        initialization
+        do {} while(condition)
+
+    */
+
+    // For loop
+    // for(initialization; condition; increment/decrement)
+
+    for (var k = 0; k < 10; k++) {
+        if ((k % 2 ) != 0) {
+            console.log(k);
+            break;
+        }
+    }
+
+    // if (condiont) {} 
+
+    function evenOrOdd(value) {
+        if ((value % 2) == 0) {
+            return true;
+        } 
+        return false;
+    }
+
+    if(evenOrOdd(2) == true) {
+        console.log('even')
+    } else {
+        console.log('odd');
+    }
+
+    var age = 10;
+    if (age < 10) {
+        console.log('young man');
+    } else if(age >= 10 || age <= 20) {
+        console.log('youth');
+    } else {
+        console.log('adult');
+    }
+
+    switch(age) {
+        default:
+            console.log('invalid');
+            break;
+        case 10:
+            console.log('young man');
+            break;
+        case 20: 
+            console.log('adult');
+            break;
+        
+    }
+
+
+
+
+    // programming idioms
+    // i++
+    // i--
+    // --i
+    // ++i
+
+
+
+
+
+
+
+
+
+
+
+    // function to get difference of 2 numbers
+    function difference(a, b) {
+        return a - b;
+    }
+
+    sum((3*7), (2-8))
+
+    function sum(a, b) {
+        function test(a, b){
+            re
+        }
+        var func = test();
+        return a + b;
+    }
+    console.log(sum(4, 5)); // output: 9
+
+    // system defined functions
+    console.log
+    prompt
+    alert('hello')
+
+
+    // user defined function
+
+    console.log(typeof (a+b));
+
+    document.write(sum);
+
+    console.log( true && false); // false
+    console.log( false && false ); // falase
+    console.log( true || false ); //true 
+    console.log( true || true); // true
+
+    console.log( ((5+8+9+10+78+1234)*0) && 5);
+
+    console.log(a < b);
+    console.log(a <= b);
+    console.log(a >= b);
+    console.log(b < a);
+
+
+    console.log("abc" < "Aba");
+
+
+    console.log(parseInt(a) + parseInt(b));
+</script>
+</html>
