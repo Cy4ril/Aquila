@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="calc.css" type="text/css" >
+</head>
+<body>
+     <CENTER>
+         <form name="fish">
+             <input placeholder="0" name="meat" id="a1">
+             <br>
+             <input id="r" type="button" value="7" onclick="displayNumber(7)">
+             <input id="r" type="button" value="8" onclick="document.fish.meat.value += '8'">
+             <input id="r" type="button" value="9" onclick="document.fish.meat.value += '9'">
+             <input id="w" type="button" value="+" onclick="document.fish.meat.value += '+'">
+             <input id="w"  type="button" value="/" onclick="document.fish.meat.value += '/'">
+             <br>
+             <input id="r" type="button" value="4" onclick="document.fish.meat.value += '4'">
+             <input id="r" type="button" value="5" onclick="document.fish.meat.value += '5'">
+             <input id="r" type="button" value="6" onclick="document.fish.meat.value += '6'">
+             <input id="w" type="button" value="*" onclick="document.fish.meat.value += '*'">
+             <input id="w" type="button" value="%" onclick="mod()">
+             <br>
+             <input id="r" type="button" value="1" onclick="document.fish.meat.value += '1'">
+             <input id="r" type="button" value="2" onclick="document.fish.meat.value += '2'">
+             <input id="r" type="button" value="3" onclick="document.fish.meat.value += '3'">
+             <input id="w" type="button" value="-" onclick="document.fish.meat.value += '-'">
+             <input id="w" type="button" value="=" onclick="document.fish.meat.value = eval(document.fish.meat.value)">
+            <center> <input id="o" type="button" value="AC" onclick="document.fish.meat.value=''"></center>
+
+         </form>
+         </CENTER>
+</body>
+<script type="text/javascript" src="calc2.js" >
+
+</script>
+</html>

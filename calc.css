@@ -1,0 +1,21 @@
+#a1{
+    height: 40px;
+    width: 500px;
+    text-align: right;
+}
+#r{ 
+    height: 30px;
+    width: 99px;
+    background-color: rgb(223, 181, 181);
+}
+#w{ 
+    height: 30px;
+    width: 99px;
+    background-color:rgb(172, 108, 231);
+}
+#o{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(131, 5, 89)
+    
+}
