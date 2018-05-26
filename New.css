@@ -1,0 +1,13 @@
+#H1{
+    float: right;
+    width: 50%;
+    height: 2200px;
+    background: blue
+    
+}
+#H2{
+    float: left;
+    width: 50%;
+    height: 1000px;
+    background: black
+}

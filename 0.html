@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+    </head>
+    <body>
+            <div class="container">
+                <input id="task"><button class="btn" id="add">Add</button>
+                <ul id="todos" class="collection"></ul>
+            </div>
+            <script type="text/javascript">
+                var add = document.getElementById('add');
+                add.addEventListener('click',function() {
+                    var task = document.getElementById('task').value;
+                    var list = [];
+                    list.push(task);
+                    localStorage.setItem('todo', JSON.stringify(list))
+                    var todo_str = localStorage.getItem('todo');
+                    var todos = JSON.parse(todo_str);
+                    var html = '';
+                    for(var i=0; i<todos.length; i++)="" {="" html="" +="&lt;li class="collection-item"&gt;" +="" todos[i]="" +="" '<="" li="">';
+                    }
+                    document.getElementById('todos').innerHTML = html;
+                })
+            </script>
+        </body>
+</html>
+

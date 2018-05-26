@@ -2,13 +2,66 @@
 <html>
     <head><strong>JAVASCRIPT</strong></head>
     <body>
-        <script type="text/javascript">
+        <script "text/javascript">
+        /*comment
             document.write("Hello Carlson!") ;
             document.write("<h1>Tring to form a First script Heading</h1>");
             document.text("<p>Trying to make a first javascript paragraph</p>");
             document.text("<p>Ok! Lets go to the Assignment proper!</p>");
-            varx=5;
-            varcarname="Toyota";
+            document.text("<p>Climbing an apple tree in JSAcademy</p>")
+            var x1 = 5;
+            var carname = "Toyota";
+            */
+            var person = {
+                name:"Tom",
+                height:23,
+                sex:"male",
+                age:45,
+                sex:"M"
+            };
+            var number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+            typeof number;
+            if (person.age <= 10){
+                console.log("child");
+            }
+             else if (person.age >10 && person.age <= 13){
+             console.log("adulescence");}
+             else if (person.age >13 && person.age <= 19){
+             console.log("teenager");}
+             else if (person.age >19){
+             console.log("adult");}
+             switch (person.sex){
+                 case "male":
+                 console.log("He is a male");
+                 break;
+                 case "female":
+                 console.log("She is a woman");
+                 break;
+                 default:
+                 console.log("Anyha ei dey the person na human being masa");
+             }
+             person.sex == "M" ? "Male": "female";
+             var i = 0;
+             while (i <= 10);{
+                 console.log(i);
+                 i++; 
+
+             }  
+             function myFunction(x){
+                 for(var i = 1; i <= x; i++){
+                     console.log(i);}
+             }
+            
+             function printEven(x,y){
+                 for(var i = x; i <= y; i++){
+                     if (i % 2 == 0)
+                     console.log(i);
+                     }
+                 }
+             printEven(2,100)
+
+
+
         </script>
     </body>
 </html>

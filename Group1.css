@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(7, 101, 243);
+    font-size: 30px;
+}
+div{
+    height: 100%;
+    width: 80%;
+    border-radius: 20px;
+    background-color: rgb(195, 214, 142);
+    border-style: solid;
+    border-width: 50%;
+}
+h1{
+    font-size: 70px;
+    padding:5px;
+}
+input{
+    width: 235px;
+    height: 25px;
+}
+#O{
+    width: 80px;
+    height: 35px;
+    border-radius: 10px;
+}
+#H{
+    color: rgb(8, 2, 2);
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(151, 209, 190);
+    width:70px;
+}
+#J{
+    border-radius: 10px;
+    color: ;
+    width:45%;
+    height: 40px;
+}
